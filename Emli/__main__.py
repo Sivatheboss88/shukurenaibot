@@ -82,41 +82,38 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm Emli anime-theme management bot [✨](https://te.legra.ph/file/074ef8d210745e3380baf.jpg)
+✪ ɪ' ᴀᴍ sʜᴜ ʙᴇsᴛ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [✨](https://telegra.ph/file/a6417d3bbe710975c6373.jpg)
 ────────────────────────
 × *Bot Uptime:* `{}`
 × `{}` *users, across* `{}` *chats*
 ────────────────────────
-✪ Hit the /help to see available commands.
+✪ Ⓗ︎Ⓘ︎Ⓣ︎ Ⓣ︎Ⓗ︎Ⓔ︎ /help Ⓣ︎Ⓞ︎ Ⓢ︎Ⓔ︎Ⓔ︎ Ⓐ︎Ⓥ︎Ⓐ︎Ⓘ︎Ⓛ︎Ⓐ︎Ⓑ︎Ⓛ︎Ⓔ︎ Ⓒ︎Ⓞ︎Ⓜ︎Ⓜ︎Ⓐ︎Ⓝ︎Ⓓ︎Ⓢ︎.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Emli Robot", callback_data="emli_"),
+        InlineKeyboardButton(text="About  ShukurenaiPRobot", callback_data="emli_"),
     ],
     [
         InlineKeyboardButton(text="Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="support!​​", url="t.me/OMG_info"
+            text="support!​​", url="t.me/SHUKURENAI_SUPPORT"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Emli To Your Group ➗", url="t.me/EMLIXbot?startgroup=new"),
+            text="➗ 𝐴𝑑𝑑 𝑠ℎ𝑢 𝑘𝑢𝑟𝑒𝑛𝑎𝑖 𝑖𝑛 𝑦𝑜𝑢𝑟 𝑔𝑟𝑜𝑢𝑝 ➗", url="t.me/ShukurenaiPRobot?startgroup=new"),
     ],
 ]
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command."""
+clιcĸ on тнe вυттon вellow тo geт мy мaѕтer conтacт υѕernaмe
 
-EMI_IMG = "https://te.legra.ph/file/074ef8d210745e3380baf.jpg"
+EMI_IMG = "https://telegra.ph/file/c4fd564694d790998d1e9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @shado_hackers \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
-
+ You can support the project by contacting ![ѕιva тнe вoѕѕ](https:
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
