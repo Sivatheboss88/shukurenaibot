@@ -113,7 +113,8 @@ clιcĸ on тнe вυттon вellow тo geт мy мaѕтer conтacт υѕernaмe
 EMI_IMG = "https://telegra.ph/file/c4fd564694d790998d1e9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting ![ѕιva тнe вoѕѕ](https:
+ You can support the project by contacting ![ѕιva тнe вoѕѕ](https:t.me/Sivatheboss)
+
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -226,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi👋 I'm Emli robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi👋 𝔦'𝔞𝔪 𝔰𝔥𝔲 𝔨𝔲𝔯𝔢𝔫𝔞𝔦 𝔟𝔬𝔱!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -364,8 +365,8 @@ def emli_about_callback(update, context):
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Emli's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for Emli.",
+            "\n\n_𝘀𝗵𝘂 licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for 𝘀𝗵𝘂.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -405,7 +406,7 @@ def emli_about_callback(update, context):
     elif query.data == "emli_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Emli now ready to manage your group."
+            "\nCongragulations, Shu now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -432,14 +433,14 @@ def emli_about_callback(update, context):
         )
     elif query.data == "emli_support":
         query.message.edit_text(
-            text="*๏ Emli support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Emli.",
+            text="*๏ shu support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Shu.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/OMG_info"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/nexleech"),
+                    InlineKeyboardButton(text="Support", url="t.me/SHUKURENAI_SUPPORT"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/SHUKURENAI_UPDATES"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emli_"),
@@ -452,13 +453,13 @@ def emli_about_callback(update, context):
 
     elif query.data == "emli_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for Emli</b>\n"
+            text=f"<b>๏ Credis for Shu</b>\n"
             f"\nHere Developers Making The Emli",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="LUSIFER", url="https://mobile.twitter.com/Lusifer_noob"),
+                    InlineKeyboardButton(text="Ⓢ︎Ⓘ︎Ⓥ︎Ⓐ︎Ⓣ︎Ⓗ︎Ⓔ︎Ⓑ︎Ⓞ︎Ⓢ︎Ⓢ︎", url="https://t.me/Sivatheboss"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emli_"),
@@ -477,8 +478,8 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="LUSIFER", url="https://t.me/shado_hackers"),
-                    InlineKeyboardButton(text="𝚂𝚞𝚙𝚙𝚘𝚛𝚝", url="https://t.me/OMG_info"),
+                    InlineKeyboardButton(text="𝚂𝚒𝚟𝚊 𝚝𝚑𝚎 𝚋𝚘𝚜𝚜", url="https://t.me/Sivatheboss"),
+                    InlineKeyboardButton(text="𝚂𝚞𝚙𝚙𝚘𝚛𝚝", url="https://t.me/SHUKURENAI_SUPPORT"),
                  ],
                  [
                     InlineKeyboardButton(text="𝙻𝚎𝚎𝚌𝚑", url="https://t.me/nexleech"),
