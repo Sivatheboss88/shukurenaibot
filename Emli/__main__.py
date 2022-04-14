@@ -108,7 +108,7 @@ buttons = [
 
 
  HELP_STRINGS = """
-clιcĸ on тнe вυттon вellow тo geт мy мaѕтer conтacт υѕernaмe
+clιcĸ on тнe вυттonѕ any ιѕѕυe conтacт вellow тo geт deѕcrιpтιon aвoυт ѕpecιғιcѕ coммand."""
 
 EMI_IMG = "https://telegra.ph/file/c4fd564694d790998d1e9.jpg"
 
