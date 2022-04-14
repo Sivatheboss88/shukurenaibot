@@ -1,6 +1,6 @@
 {
-      "name": "Emli Robot",
-      "description": "A Powerful  Telegram group management bot with anime theme.",
+      "name": "Shu kurenai",
+      "description": "A Powerful  Telegram group management bot.",
       "keywords": [
          "telegram",
          "advance",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/e8baa0a32d528b548aa45.jpg",  
-   "repository": "https://github.com/NoobLeechX/EMLI",
+   "logo":    "https://telegra.ph/file/c4fd564694d790998d1e9.jpg",  
+   "repository": "https://github.com/Sivatheboss88/shukurenaibot",
    "addons": [
           {
          "options": {
@@ -51,7 +51,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "828959161"
+         "value": "5077976227"
      },
 
       "HEROKU_API_KEY": {
@@ -74,12 +74,12 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "shado_hackers"
+         "value": "Sivatheboss"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": ""
+         "value": "SHUKURENAI_SUPPORT"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -97,12 +97,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001306080448"
+         "value": "-1001196054105"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001306080448"
+         "value": "-1001196054105"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -124,7 +124,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "5077976227"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
@@ -143,22 +143,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": ""
+         "value": "5077976227"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": ""
+         "value": "5077976227"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": ""
+         "value": "5077976227"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "5077976227"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
