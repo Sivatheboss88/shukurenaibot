@@ -113,7 +113,7 @@ clιcĸ on тнe вυттon вellow тo geт мy мaѕтer conтacт υѕernaмe
 EMI_IMG = "https://telegra.ph/file/c4fd564694d790998d1e9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting ![ѕιva тнe вoѕѕ](https:t.me/Sivatheboss)
+ You can support the project by contacting ![ѕιva тнe вoѕѕ](https://t.me/Sivatheboss)
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -482,20 +482,20 @@ def Source_about_callback(update, context):
                     InlineKeyboardButton(text="𝚂𝚞𝚙𝚙𝚘𝚛𝚝", url="https://t.me/SHUKURENAI_SUPPORT"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝙻𝚎𝚎𝚌𝚑", url="https://t.me/nexleech"),
-                    InlineKeyboardButton(text="𝙾𝚝𝚑𝚎𝚛 𝚋𝚘𝚝", url="https://t.me/OMG_info/3990"),
+                    InlineKeyboardButton(text="𝑠𝑖𝑣𝑎 𝑡ℎ𝑒 𝑏𝑜𝑠𝑠", url="https://t.me/Sivatheboss"),
+                    InlineKeyboardButton(text="main bot", url="https://t.me/ShukurenaiPRobot"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 V2", url="https://t.me/EMLIXbot"),
-                    InlineKeyboardButton(text="Source", url="tg://need_update_for_some_feature"),
+                    InlineKeyboardButton(text="𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 V2", url="https://t.me/ShukurenaiPRobot"),
+                    InlineKeyboardButton(text="Source", massage="repo is private"),
                  ],
                  [
                     InlineKeyboardButton(text="𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁", url="https://heroku.com/"),
                     InlineKeyboardButton(text="𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴", url="https://cloud.mongodb.com/"),
                  ],
                  [
-                    InlineKeyboardButton(text="Follow meh", url="https://mobile.twitter.com/Shado_hackers"),
-                    InlineKeyboardButton(text="𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴", url="https://www.python.org/"),
+                    InlineKeyboardButton(text="Follow owner ", url="https://t.me/Sivatheboss"),
+                    InlineKeyboardButton(text="ɢᴜɪᴅᴇ ᴍᴇ", url="https://t.me/MxNitro"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emli_"),
@@ -742,7 +742,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1606221784:
             update.effective_message.reply_text(
-                "I'm free for everyone ❤️ If you wanna make me smile, just join"
+                "I'm free for everyone ❤️ If you enjoy make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -788,8 +788,8 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@{SUPPORT_CHAT}", 
-                f"""**Emli Robot Started!**
+                f"@SHUKURENAI_SUPPORT", 
+                f"""**𝙸 𝚊𝚖 𝚛𝚎𝚊𝚍𝚢 𝚝𝚘 𝚋𝚊𝚝𝚝𝚕𝚎!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
